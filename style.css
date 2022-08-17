@@ -144,7 +144,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 7px;
-      color: #afb6c2;
+    color: #afb6c2;
 }
 
 .email-group, .password-group, .group {
@@ -168,12 +168,14 @@ a{
     background: url(assets/mail-focus.svg) no-repeat;
     background-position: 10px;
     padding-left: 37px;
+    color: #FFC632;
 }
 
 #password:focus {
     background: url(assets/lock-focus.svg) no-repeat;
     background-position: 10px;
     padding-left: 37px;
+    color: #FFC632;
 }
 
 .label-check {
