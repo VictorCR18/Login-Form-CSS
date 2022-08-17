@@ -156,12 +156,14 @@ a{
     background: url(assets/lock.svg) no-repeat;
     background-position: 10px;
     padding-left: 37px;
+    color: #FFC632;
 }
 
 #email {
     background: url(assets/mail.svg) no-repeat;
     background-position: 10px;
     padding-left: 37px;
+    color: #FFC632;
 }
 
 #email:focus {
