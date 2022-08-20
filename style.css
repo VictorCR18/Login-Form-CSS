@@ -30,7 +30,7 @@ main {
     align-items: center;
 }
 
-h1{
+h1 {
     color: #d4ccb6;
 }
 
@@ -90,7 +90,7 @@ button {
     cursor: pointer;
 }
 
-a{
+a {
     outline: none;
     text-decoration: none;
     color: #FFC632;
@@ -151,7 +151,7 @@ a{
 
 .email-group, .password-group, .group {
     margin-bottom: 20px;
-  
+
 }
 
 #password {
@@ -247,3 +247,55 @@ a{
     width: 20px;
     height: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .content {
+        background-color: #24221f;
+        width: 372px;
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    .container{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 918px) {
+ aside{
+    background-image: none;
+    position: absolute;
+    visibility: hidden;
+ }
+
+ .content {
+    background-color: #24221f;
+    width: 572px;
+}
+
+.container{
+    padding: 55px 119px;
+}
+ 
+}
+
+@media screen and (max-width: 617px) {
+    aside{
+       background-image: none;
+       position: absolute;
+       visibility: hidden;
+    }
+   
+    .content {
+       background-color: #191816;
+       width: 372px;
+       height: 512px;
+       margin: 0;
+       padding: 0;
+    }
+   
+    .container{
+       padding: 0;
+    }
