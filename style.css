@@ -257,45 +257,46 @@ a {
         margin-top: 60px;
     }
 
-    .container{
+    .container {
         padding: 20px;
     }
 
 }
 
 @media screen and (max-width: 918px) {
- aside{
-    background-image: none;
-    position: absolute;
-    visibility: hidden;
- }
+    aside {
+        background-image: none;
+        position: absolute;
+        visibility: hidden;
+    }
 
- .content {
-    background-color: #24221f;
-    width: 572px;
-}
+    .content {
+        background-color: #24221f;
+        width: 572px;
+    }
 
-.container{
-    padding: 55px 119px;
-}
- 
+    .container {
+        padding: 55px 119px;
+    }
+
 }
 
 @media screen and (max-width: 617px) {
-    aside{
-       background-image: none;
-       position: absolute;
-       visibility: hidden;
+    aside {
+        background-image: none;
+        position: absolute;
+        visibility: hidden;
     }
-   
+
     .content {
-       background-color: #191816;
-       width: 372px;
-       height: 512px;
-       margin: 0;
-       padding: 0;
+        background-color: #191816;
+        width: 372px;
+        height: 512px;
+        margin: 0;
+        padding: 0;
     }
-   
-    .container{
-       padding: 0;
+
+    .container {
+        padding: 0;
     }
+}
